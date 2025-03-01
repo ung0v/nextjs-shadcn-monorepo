@@ -12,7 +12,6 @@ export default function Page() {
         <Button size="sm">Button</Button>
       </div>
       <Button
-      variant="outline"
       onClick={() =>
         toast("Event has been created", {
           description: "Sunday, December 03, 2023 at 9:00 AM",
